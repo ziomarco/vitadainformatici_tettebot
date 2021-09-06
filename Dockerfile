@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . .
 
-CMD npm ci
+RUN npm ci
 
-RUN node index.js
+CMD node index.js

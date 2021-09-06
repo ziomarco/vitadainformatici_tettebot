@@ -1,0 +1,20 @@
+{
+  "name": "vitadavetetterani_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "author": "Marco Palmisano",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "telegraf": "^4.4.1"
+  }
+}
